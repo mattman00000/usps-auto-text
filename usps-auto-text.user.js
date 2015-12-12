@@ -5,7 +5,7 @@
 // @author       mattman00000
 // @run-at       document-end
 // @grant        none
-// @version      0.0.0
+// @version      0.0.1
 // @match        https://tools.usps.com/go/TrackConfirmAction*
 // ==/UserScript==
 
@@ -22,7 +22,7 @@ document.getElementById("confirm_sms_1").click();
 document.getElementById("submit-email-updates-button_sms_1").click();
 };
 fak.innerText = "Auto text notices";
-fak.style.fontSize = "48px";
+fak.style.fontSize = "36px";
 fak.style.fontFamily = "Unifont";
 fak.style.fontWeight = "bolder";
 fak.style.backgroundColor = "rgb(255,255,000)";
