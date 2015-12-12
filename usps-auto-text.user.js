@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Rajce Idnes Enhancer
+// @name         USPS Auto Text Notify
 // @namespace    http://github.com/mattman00000/usps-auto-text
 // @description  auto signup for usps texts alpha pls
 // @author       mattman00000
 // @run-at       document-end
 // @grant        none
-// @version      0.0.1
+// @version      0.0.2
 // @match        https://tools.usps.com/go/TrackConfirmAction*
 // ==/UserScript==
 
