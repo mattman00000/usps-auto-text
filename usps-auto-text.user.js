@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         USPS Auto Text Notify
 // @namespace    http://github.com/mattman00000/usps-auto-text
-// @version      0.0.3
+// @version      0.0.4
 // @description  auto signup for usps texts alpha pls
 // @author       mattman00000
 // @run-at       document-end
@@ -25,3 +25,5 @@ fak.style.fontFamily = "Unifont";
 fak.style.fontWeight = "bolder";
 fak.style.backgroundColor = "rgb(255,255,000)";
 document.getElementsByClassName("request-updates-sms")[0].insertAdjacentElement("beforeBegin",fak);
+
+console.error(window.setTimeout(function(){window.scrollTo(0,0);},3000));
