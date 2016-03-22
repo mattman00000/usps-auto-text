@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         USPS Auto Text Notify
-// @namespace    http://github.com/mattman00000/usps-auto-text
-// @version      0.0.4
+// @namespace    https://github.com/mattman00000
+// @version      0.0.5
 // @description  auto signup for usps texts alpha pls
 // @author       mattman00000
 // @run-at       document-end
